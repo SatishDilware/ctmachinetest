@@ -148,7 +148,7 @@ class _LogInScreenState extends State<LogInScreen> {
                     buttonHeight: screenHeight(context) * 0.06,
                     radius: 25,
                     onTapFunction: () {
-                      loginController.loginApi('', '');
+                      loginController.loginUser();
                     },
                     buttonText: 'Login',
                     buttonTextColor: Colors.white,

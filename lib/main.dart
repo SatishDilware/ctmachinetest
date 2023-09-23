@@ -1,6 +1,6 @@
-import 'package:ct_machine_test/Screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'Screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'CT Machine Test',
+      title: 'Machine Test',
       theme: ThemeData.light(),
-      home: const VehicleListScreen(),
+      home: const LogInScreen(),
     );
   }
 }
